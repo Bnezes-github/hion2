@@ -1,0 +1,116 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+
+
+/* BootStrap Overrides */
+
+body {
+    font-family: "MuseoModerno", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    background-color: #e0e2db;
+}
+
+h1, .h1, h2, .h2 {
+    color: #3D348B;
+}
+
+
+.jumbotron {
+    background-color: #beb7a4;
+}
+.jumbotron, .h1 {
+      color: #3D348B;
+}
+.lead {
+    color: #000000;
+}
+
+
+
+.navbar-inverse {
+    background-color: #ffc300;
+    border-color: #ffc300;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #000000;
+}
+
+.navbar-inverse .navbar-brand {
+     color: #3D348B;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+      background-color: #000000;
+}
+
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+      background-color: #fff;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    font-size: 16px;
+    padding: 1px 19px;
+    border-radius: 9px;
+}
+.form-control:focus {
+     box-shadow: none;
+     border-color: #ffc300;
+     -webkit-box-shadow: none;
+}
+
+
+
+.btn {   
+    padding: 7px 20px;
+    font-size: 17px;
+    border-radius: 9px;
+}
+
+
+
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+    color: #000000;
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    color: #fff;
+    background-color: #f19d0494;
+}
+
+.dropdown-menu {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.field-validation-error{
+    color: red;
+    font-size: 12px;
+}
