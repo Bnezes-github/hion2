@@ -8,7 +8,7 @@ namespace Hion.ViewModels
 {
     public class HionFormViewModel
     {
-        [Required(ErrorMessage = "The Event Link field is required.")]
+        [Required(ErrorMessage = "The Event Link field is required.Please type it")]
         public string Venue { get; set; }
 
         [Required]
